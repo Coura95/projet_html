@@ -1,0 +1,189 @@
+html{
+    margin: 0px 100px 0px 100px;
+}
+nav ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+
+    
+
+}
+.flottetexte{
+   
+ height: 100px;
+}
+
+.flotteimg{
+    float:right;
+   
+}
+
+#texte{
+    color: #f35309;
+    justify-content: space-around ;
+    display: flex;
+    float:right;
+    text-align: right;
+    padding-top: 0px;
+    padding-bottom: 0px;
+       
+ width: 50%;
+ height: 50px;
+    
+    
+}
+h2{
+    color: #f35309  
+}
+nav{
+   
+ width: 100%;
+ justify-content: space-around ;
+   display: flex;
+   color: #f35309;
+    
+}
+
+.element1 {
+	height : 500px;
+	width : 400px;
+	float : left;
+
+}
+
+#conteneur_home {
+
+    height: 350px;
+    background: gold;
+    display: flex;
+    
+}
+.images{
+    width: 40%;
+    height:100%;
+}
+.texte{
+    width: 59%;
+    height: auto;
+    background: rgb(227, 233, 233);
+    padding: 100px 80px 0px 80px;
+    text-align: center;
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    
+  
+
+
+}
+img{
+    width: 100%;
+    height: 100%;
+
+}
+button
+{
+    width: 100px;
+    height: 30px;
+    color: #f35309;
+    border: 1px solid #f35309;
+    float: right;
+}
+#test{
+     text-align: center;
+     color: #f7f3f1;
+}
+.ajuster{
+justify-content: space-between;
+    flex-wrap: nowrap;
+	 align-items:start-flex;
+     margin : auto
+    }
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(236, 236, 236);
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+  
+   
+}
+
+.align-toph{
+    justify-content: initial;
+   
+    padding: 100px 80px 100px 80px;
+    display:inline-flex;
+    margin: 5px;
+    background-color: rgba(255,255,255,0.6);
+   
+    
+
+}
+section{
+    background-image: url("https://cdn.pixabay.com/photo/2019/10/23/16/27/mezquita-4572094_960_720.jpg");
+    background-attachment: fixed;
+    /*background-color: tomato;*/
+
+}
+/*
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    border: 1px solid;
+    background: seagreen;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.slogan {
+    text-transform: uppercase;
+}*/
+header{
+   width: 100%;
+    height: 100px;
+    display: flex;
+}
+.div1{
+    width: 50%;
+    float: left;
+    margin-top: 0px;
+}
+#search-form{
+    width:40%;
+    float: right;
+    height: 50px;
+
+    
+   
+
+
+}
+form{
+    float: right;
+    margin-top:20px;
+}
+.button {
+   
+    height: 25px;
+    background: orangered;
+    
+}
+hr {
+	display: block;
+	clear: both;
+	height: 1;
+	margin: 40px 0 80px;
+	padding: 0;
+	border: 1;
+	font-family: arial;
+	text-align: center;
+	font-size: 60px;
+	line-height: 1;
+}
